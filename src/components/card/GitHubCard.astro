@@ -1,0 +1,33 @@
+---
+import { ArrowUpRight } from "lucide-astro";
+import githubIcon from "../../assets/github-logo.svg";
+
+const { class: className = "" } = Astro.props;
+const githubUrl = "https://github.com/shuntaro731";
+---
+
+<a
+  href={githubUrl}
+  target="_blank"
+  rel="noreferrer"
+  class:list={[
+    "relative flex aspect-square min-w-0 items-center justify-center overflow-hidden rounded-4xl bg-[#242424] transition-opacity hover:opacity-90 lg:aspect-auto",
+    className,
+  ]}
+  aria-label="GitHubを開く"
+>
+  <img
+    src={githubIcon.src}
+    width={githubIcon.width}
+    height={githubIcon.height}
+    class="size-12"
+    aria-hidden="true"
+  />
+
+  <span
+    class="absolute bottom-4 left-4 grid size-11 place-items-center rounded-full bg-[#f7f1f1] text-black"
+    aria-hidden="true"
+  >
+    <ArrowUpRight size={24} strokeWidth={2.5} />
+  </span>
+</a>

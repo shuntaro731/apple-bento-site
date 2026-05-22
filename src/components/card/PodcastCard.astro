@@ -1,0 +1,45 @@
+---
+import { Play } from "lucide-astro";
+import yuruImage from "../../assets/yuru.jpeg";
+
+const { class: className = "" } = Astro.props;
+const podcastUrl =
+  "https://podcasts.apple.com/jp/podcast/%E3%82%86%E3%82%8B%E8%A8%80%E8%AA%9E%E5%AD%A6%E3%83%A9%E3%82%B8%E3%82%AA/id1550243290";
+---
+
+<article
+  class:list={[
+    "flex min-w-0 items-center justify-between gap-6 overflow-hidden rounded-4xl bg-white p-7 sm:aspect-[486/187] sm:p-8 lg:h-48",
+    className,
+  ]}
+  aria-labelledby="podcast-title"
+>
+  <div class="min-w-0">
+    <p class="text-xs font-bold leading-none text-black/40">好きなPodcaster</p>
+    <h2
+      id="podcast-title"
+      class="mt-3 text-2xl font-bold leading-tight text-black sm:truncate"
+    >
+      ゆる言語学ラジオ
+    </h2>
+
+    <a
+      href={podcastUrl}
+      target="_blank"
+      rel="noreferrer"
+      class="mt-5 inline-flex items-center gap-2 rounded-full bg-[#007aff] px-4 py-3 text-sm font-bold leading-none text-white transition-opacity hover:opacity-90"
+      aria-label="ゆる言語学ラジオのPodcastを開く"
+    >
+      <Play size={14} fill="currentColor" strokeWidth={0} aria-hidden="true" />
+      番組を聴く
+    </a>
+  </div>
+
+  <img
+    src={yuruImage.src}
+    width={yuruImage.width}
+    height={yuruImage.height}
+    alt="ゆる言語学ラジオのアートワーク"
+    class="hidden aspect-square w-28 shrink-0 rounded-2xl object-cover sm:block"
+  />
+</article>

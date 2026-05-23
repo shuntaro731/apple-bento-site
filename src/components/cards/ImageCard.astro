@@ -1,0 +1,41 @@
+---
+import tokushimaImage from "../../assets/images/tokushima-night.jpg";
+
+const {
+  class: className = "",
+  titleId = "tokushima-title",
+  label = "live in Tokushima\u00a0\u00a0🏝️",
+  image = tokushimaImage,
+  imageAlt = "徳島の夜景",
+  labelClass = "bg-page",
+} = Astro.props;
+const imageSrc = image?.src ?? image;
+const imageWidth = image?.width;
+const imageHeight = image?.height;
+---
+
+<article
+  class:list={[
+    "group relative size-full overflow-hidden rounded-4xl",
+    className,
+  ]}
+  aria-labelledby={titleId}
+>
+  <img
+    src={imageSrc}
+    width={imageWidth}
+    height={imageHeight}
+    alt={imageAlt}
+    class="size-full object-cover brightness-60 transition duration-700 ease-out group-hover:scale-105 group-hover:brightness-100"
+  />
+
+  <h2
+    id={titleId}
+    class:list={[
+      "absolute bottom-6 left-6 max-w-[80%] truncate rounded-xl px-4 py-3 text-base font-bold leading-none text-black shadow-sm",
+      labelClass,
+    ]}
+  >
+    {label}
+  </h2>
+</article>

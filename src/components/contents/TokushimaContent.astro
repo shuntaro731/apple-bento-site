@@ -5,11 +5,10 @@ import WeatherCard from "../cards/WeatherCard.astro";
 import awaodoriImage from "../../assets/images/awaodori.jpg";
 import museumImage from "../../assets/images/ootuka.jpg";
 import yakimochiImage from "../../assets/images/yakimochi.png";
+import BentoGrid from "../BentoGrid.astro";
 ---
 
-<div
-  class="grid grid-cols-1 items-start gap-6 sm:grid-cols-[repeat(2,minmax(0,13rem))] lg:grid-cols-[repeat(4,14.5rem)] lg:auto-rows-[14.5rem]"
->
+<BentoGrid>
   <div
     class="aspect-square sm:col-span-2 lg:col-start-1 lg:row-span-2 lg:row-start-1 lg:aspect-auto lg:h-full"
   >
@@ -73,4 +72,4 @@ import yakimochiImage from "../../assets/images/yakimochi.png";
       url="https://ja.wikipedia.org/wiki/大塚国際美術館"
     />
   </div>
-</div>
+</BentoGrid>

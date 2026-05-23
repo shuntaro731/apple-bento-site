@@ -7,16 +7,14 @@ import PodcastCard from "../cards/PodcastCard.astro";
 import YouTuberCard from "../cards/YouTuberCard.astro";
 import TokushimaContent from "./TokushimaContent.astro";
 import PrContent from "./PrContent.astro";
+import BentoGrid from "../BentoGrid.astro";
 ---
 
 <div
   data-grid-root
   class="mx-auto w-full max-w-md px-6 pt-13 sm:w-fit sm:max-w-full"
 >
-  <div
-    data-grid-view="profile"
-    class="grid grid-cols-1 items-start gap-6 sm:grid-cols-[repeat(2,minmax(0,13rem))] lg:grid-cols-[repeat(4,14.5rem)] lg:auto-rows-[14.5rem]"
-  >
+  <BentoGrid data-grid-view="profile">
     <div class="aspect-[465/228] sm:col-span-2 lg:col-start-1 lg:row-start-1 lg:aspect-auto lg:h-full">
       <AboutCard />
     </div>
@@ -40,7 +38,7 @@ import PrContent from "./PrContent.astro";
     <div class="aspect-[486/187] sm:col-span-2 lg:col-start-3 lg:row-start-2 lg:col-span-2 lg:aspect-auto lg:h-full">
       <PodcastCard />
     </div>
-  </div>
+  </BentoGrid>
 
   <div
     data-grid-view="tokushima"

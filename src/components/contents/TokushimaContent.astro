@@ -1,7 +1,7 @@
 ---
-import { CloudRain } from "lucide-astro";
 import AboutCard from "../cards/AboutCard.astro";
 import ImageCard from "../cards/ImageCard.astro";
+import WeatherCard from "../cards/WeatherCard.astro";
 import awaodoriImage from "../../assets/images/awaodori.jpg";
 import museumImage from "../../assets/images/ootuka.jpg";
 ---
@@ -17,38 +17,13 @@ import museumImage from "../../assets/images/ootuka.jpg";
       label="Awaodori 🕺"
       image={awaodoriImage}
       imageAlt="阿波おどりの様子"
-      labelClass="bg-white"
       url="https://ja.wikipedia.org/wiki/阿波踊り"
     />
   </div>
 
-  <article
-    class="flex aspect-square flex-col justify-between rounded-4xl bg-white p-6 lg:col-start-3 lg:row-start-1"
-    aria-labelledby="weather-title"
-  >
-    <div class="flex items-start justify-between gap-4">
-      <div
-        class="grid size-20 shrink-0 place-items-center rounded-full bg-[#d8d8d8] text-sm font-bold text-black"
-        aria-hidden="true"
-      >
-        気温アイコン
-      </div>
-      <div
-        class="min-w-0 flex-1 rounded-sm bg-[linear-gradient(180deg,#82a4b6_0%,#3f7ca3_100%)] p-2 text-white"
-        aria-hidden="true"
-      >
-        <p class="text-xs font-bold leading-none">徳島市</p>
-        <p class="text-2xl font-normal leading-none">19°</p>
-        <CloudRain class="mt-3 size-4" strokeWidth={2.5} />
-        <p class="mt-1 text-xs font-bold leading-tight">にわか雨</p>
-        <p class="text-xs font-bold leading-tight">最高:22° 最低:19°</p>
-      </div>
-    </div>
-
-    <h2 id="weather-title" class="text-sm font-bold leading-tight text-black">
-      徳島の気温ウィジェット
-    </h2>
-  </article>
+  <div class="aspect-square lg:col-start-3 lg:row-start-1">
+    <WeatherCard />
+  </div>
 
   <article
     class="flex aspect-square flex-col justify-between rounded-4xl bg-white p-6 lg:col-start-4 lg:row-start-1"
@@ -88,7 +63,6 @@ import museumImage from "../../assets/images/ootuka.jpg";
       label="大塚国際美術館"
       image={museumImage}
       imageAlt="大塚国際美術館"
-      labelClass="bg-white"
       url="https://ja.wikipedia.org/wiki/大塚国際美術館"
     />
   </div>

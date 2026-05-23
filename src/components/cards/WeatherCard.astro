@@ -1,0 +1,40 @@
+---
+import { Cloud } from "lucide-astro";
+
+const {
+  class: className = "",
+  titleId = "weather-title",
+  temperature = "19°",
+  condition = "にわか雨",
+  high = "22°",
+  low = "17°",
+} = Astro.props;
+---
+
+<article
+  class:list={[
+    "flex size-full flex-col justify-between rounded-4xl bg-white p-6 text-black",
+    className,
+  ]}
+  aria-labelledby={titleId}
+>
+  <div class="flex justify-end">
+    <Cloud
+      class="size-14 shrink-0 text-black/25"
+      aria-hidden="true"
+    />
+  </div>
+
+  <div>
+    <p class="font-serif-display text-5xl font-bold leading-none">
+      {temperature}
+    </p>
+    <p class="mt-3 text-lg font-bold leading-none">
+      {condition}
+    </p>
+  </div>
+
+  <p class="text-xs font-bold leading-none text-black/35">
+    H:{high} L:{low}
+  </p>
+</article>

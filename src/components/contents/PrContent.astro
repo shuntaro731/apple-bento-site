@@ -1,10 +1,12 @@
 ---
-import { Code2, Flag, Palette } from "lucide-astro";
+import { Flag } from "lucide-astro";
 import figmaIcon from "../../assets/icons/figma.svg";
+import desalaboImage from "../../assets/images/desalabo.png";
+import vFesImage from "../../assets/images/v-fes.png";
 import BentoGrid from "../BentoGrid.astro";
 import AboutCard from "../cards/AboutCard.astro";
 import BrandCard from "../cards/BrandCard.astro";
-import LinkButton from "../LinkButton.astro";
+import WorksCard from "../cards/WorksCard.astro";
 
 const figmaUrl = "https://www.figma.com/@shuntaro1";
 
@@ -77,51 +79,21 @@ const skills = [
     />
   </div>
 
-  <a
-    href={figmaUrl}
-    target="_blank"
-    rel="noreferrer"
-    class="group relative flex aspect-[231/465] flex-col justify-center overflow-hidden rounded-4xl bg-muted-card p-6 transition-opacity hover:opacity-90 sm:col-start-1 lg:col-start-3 lg:row-span-2 lg:row-start-1 lg:aspect-auto lg:h-full"
-    aria-labelledby="work-design-title"
-  >
-    <div class="absolute left-5 top-5 grid size-12 place-items-center rounded-2xl bg-white/45 text-black/60">
-      <Palette size={22} strokeWidth={2.25} aria-hidden="true" />
-    </div>
+  <div class="aspect-[231/465] sm:col-start-1 lg:col-start-3 lg:row-span-2 lg:row-start-1 lg:aspect-auto lg:h-full">
+    <WorksCard
+      title="desalabo"
+      image={desalaboImage}
+      imageAlt="desalaboのデザイン画面"
+      url="https://www.figma.com/design/JCuVWOWpIIuqqm9PR9hQJi/desalabo?node-id=69-604&t=ktwPIXzptoyWsY0O-1"
+    />
+  </div>
 
-    <h2
-      id="work-design-title"
-      class="text-center text-base font-bold leading-tight text-black"
-    >
-      My work
-    </h2>
-    <p class="mt-3 text-center text-xs font-bold leading-none text-black/45">
-      Design
-    </p>
-
-    <LinkButton />
-  </a>
-
-  <a
-    href="https://github.com/shuntaro731"
-    target="_blank"
-    rel="noreferrer"
-    class="group relative flex aspect-[231/465] flex-col justify-center overflow-hidden rounded-4xl bg-muted-card p-6 transition-opacity hover:opacity-90 sm:col-start-2 lg:col-start-4 lg:row-span-2 lg:row-start-2 lg:aspect-auto lg:h-full"
-    aria-labelledby="work-code-title"
-  >
-    <div class="absolute left-5 top-5 grid size-12 place-items-center rounded-2xl bg-white/45 text-black/60">
-      <Code2 size={22} strokeWidth={2.25} aria-hidden="true" />
-    </div>
-
-    <h2
-      id="work-code-title"
-      class="text-center text-base font-bold leading-tight text-black"
-    >
-      My work
-    </h2>
-    <p class="mt-3 text-center text-xs font-bold leading-none text-black/45">
-      Frontend
-    </p>
-
-    <LinkButton />
-  </a>
+  <div class="aspect-[231/465] sm:col-start-2 lg:col-start-4 lg:row-span-2 lg:row-start-2 lg:aspect-auto lg:h-full">
+    <WorksCard
+      title="V-fes"
+      image={vFesImage}
+      imageAlt="V-fes Appのデザイン画面"
+      url="https://www.figma.com/design/coR3LlOJ6ipobMLsduN5DT/V-fes-App?node-id=1545-1079&t=OrjFR9Jt9qBH9sjR-1"
+    />
+  </div>
 </BentoGrid>

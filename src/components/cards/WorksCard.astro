@@ -1,0 +1,35 @@
+---
+import LinkButton from "../LinkButton.astro";
+
+const {
+  class: className = "",
+  title = "My work",
+  image,
+  imageAlt = "",
+  url,
+} = Astro.props;
+const imageSrc = image?.src ?? image;
+const imageWidth = image?.width;
+const imageHeight = image?.height;
+---
+
+<a
+  href={url}
+  target="_blank"
+  rel="noreferrer"
+  class:list={[
+    "group relative block size-full overflow-hidden rounded-4xl bg-muted-card transition-opacity hover:opacity-90",
+    className,
+  ]}
+  aria-label={title || imageAlt}
+>
+  <img
+    src={imageSrc}
+    width={imageWidth}
+    height={imageHeight}
+    alt={imageAlt}
+    class="size-full object-cover brightness-85 transition duration-700 ease-out group-hover:scale-105 group-hover:brightness-100"
+  />
+
+  <LinkButton />
+</a>

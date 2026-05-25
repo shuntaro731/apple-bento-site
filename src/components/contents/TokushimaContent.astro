@@ -7,12 +7,11 @@ import awaodoriImage from "../../assets/images/awaodori.jpg";
 import museumImage from "../../assets/images/ootuka.jpg";
 import yakimochiImage from "../../assets/images/yakimochi.png";
 import BentoGrid from "../BentoGrid.astro";
+import BentoItem from "../BentoItem.astro";
 ---
 
 <BentoGrid>
-  <div
-    class="aspect-square sm:col-span-2 lg:col-start-1 lg:row-span-2 lg:row-start-1 lg:aspect-auto lg:h-full"
-  >
+  <BentoItem span={2} col={1} row={1} rows={2}>
     <ImageCard
       titleId="awaodori-title"
       label="Awaodori 🕺"
@@ -20,22 +19,23 @@ import BentoGrid from "../BentoGrid.astro";
       imageAlt="阿波おどりの様子"
       url="https://ja.wikipedia.org/wiki/阿波踊り"
     />
-  </div>
+  </BentoItem>
 
-  <div class="aspect-square lg:col-start-3 lg:row-start-1">
+  <BentoItem col={3} row={1}>
     <WeatherCard />
-  </div>
+  </BentoItem>
 
-  <FeatureCard
-    class="lg:col-start-4 lg:row-start-1"
-    titleId="yakimochi-title"
-    title="滝のやきもち"
-    description="美味しい和菓子なので、焼き立てを食べることをおすすめします。"
-    image={yakimochiImage}
-    imageAlt="滝のやきもち"
-  />
+  <BentoItem col={4} row={1}>
+    <FeatureCard
+      titleId="yakimochi-title"
+      title="滝のやきもち"
+      description="美味しい和菓子なので、焼き立てを食べることをおすすめします。"
+      image={yakimochiImage}
+      imageAlt="滝のやきもち"
+    />
+  </BentoItem>
 
-  <div class="sm:col-span-2 lg:col-start-1 lg:row-start-3 lg:aspect-auto lg:h-full">
+  <BentoItem shape="fill" span={2} col={1} row={3}>
     <AboutCard
       titleId="tokushima-about-title"
       headingTag="h2"
@@ -45,11 +45,9 @@ import BentoGrid from "../BentoGrid.astro";
       suffix=""
       description="正直にいうと徳島は何もないです。でも住みやすい場所ではあると思います。そんな徳島のごくわずかなスポットを集めました。ここに載せていないものだと、お遍路や鳴門の渦潮なんかもありますね。一度訪れてみてください。"
     />
-  </div>
+  </BentoItem>
 
-  <div
-    class="aspect-square sm:col-span-2 lg:col-start-3 lg:row-span-2 lg:row-start-2 lg:aspect-auto lg:h-full"
-  >
+  <BentoItem span={2} col={3} row={2} rows={2}>
     <ImageCard
       titleId="museum-title"
       label="大塚国際美術館"
@@ -57,5 +55,5 @@ import BentoGrid from "../BentoGrid.astro";
       imageAlt="大塚国際美術館"
       url="https://ja.wikipedia.org/wiki/大塚国際美術館"
     />
-  </div>
+  </BentoItem>
 </BentoGrid>

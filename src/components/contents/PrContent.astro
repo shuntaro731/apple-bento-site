@@ -5,6 +5,7 @@ import desalaboImage from "../../assets/images/desalabo.png";
 import mePcImage from "../../assets/images/me_pc.png";
 import vFesImage from "../../assets/images/v-fes.png";
 import BentoGrid from "../BentoGrid.astro";
+import BentoItem from "../BentoItem.astro";
 import AboutCard from "../cards/AboutCard.astro";
 import BrandCard from "../cards/BrandCard.astro";
 import FeatureCard from "../cards/FeatureCard.astro";
@@ -24,7 +25,7 @@ const skills = [
 ---
 
 <BentoGrid>
-  <div class="aspect-[463/219] sm:col-span-2 lg:col-start-1 lg:row-start-1 lg:aspect-auto lg:h-full">
+  <BentoItem shape="wide" span={2} col={1} row={1}>
     <AboutCard
       titleId="pr-title"
       headingTag="h2"
@@ -36,24 +37,24 @@ const skills = [
       suffix="About."
       description="デザインとフロントエンド開発が得意です。このページでは、今まで作ってきた作品や、PRポイントをまとめています。"
     />
-  </div>
+  </BentoItem>
 
-  <FeatureCard
-    class="sm:col-start-1 lg:col-start-1 lg:row-start-2"
-    titleId="golf-title"
-    title="Golf"
-    description="最近ベストスコアを更新して、とても嬉しいです。ドライバーが苦手なので練習中です。"
-    icon={Flag}
-    iconSize={25}
-    visualClass="grid size-13 place-items-center rounded-full bg-golf text-white"
-  />
+  <BentoItem smCol={1} col={1} row={2}>
+    <FeatureCard
+      titleId="golf-title"
+      title="Golf"
+      description="最近ベストスコアを更新して、とても嬉しいです。ドライバーが苦手なので練習中です。"
+      icon={Flag}
+      iconSize={25}
+      visualClass="grid size-13 place-items-center rounded-full bg-golf text-white"
+    />
+  </BentoItem>
 
-  <SkillListCard
-    class="sm:col-start-2 lg:col-start-2 lg:row-start-2"
-    skills={skills}
-  />
+  <BentoItem smCol={2} col={2} row={2}>
+    <SkillListCard skills={skills} />
+  </BentoItem>
 
-  <div class="aspect-square lg:col-start-4 lg:row-start-1">
+  <BentoItem col={4} row={1}>
     <BrandCard
       url={figmaUrl}
       ariaLabel="Figmaプロフィールを開く"
@@ -62,23 +63,23 @@ const skills = [
       imageAlt="Figma"
       iconClass="size-17"
     />
-  </div>
+  </BentoItem>
 
-  <div class="aspect-[231/465] sm:col-start-1 lg:col-start-3 lg:row-span-2 lg:row-start-1 lg:aspect-auto lg:h-full">
+  <BentoItem shape="tall" smCol={1} col={3} row={1} rows={2}>
     <WorksCard
       title="desalabo"
       image={desalaboImage}
       imageAlt="desalaboのデザイン画面"
       url="https://www.figma.com/design/JCuVWOWpIIuqqm9PR9hQJi/desalabo?node-id=69-604&t=ktwPIXzptoyWsY0O-1"
     />
-  </div>
+  </BentoItem>
 
-  <div class="aspect-[231/465] sm:col-start-2 lg:col-start-4 lg:row-span-2 lg:row-start-2 lg:aspect-auto lg:h-full">
+  <BentoItem shape="tall" smCol={2} col={4} row={2} rows={2}>
     <WorksCard
       title="V-fes"
       image={vFesImage}
       imageAlt="V-fes Appのデザイン画面"
       url="https://www.figma.com/design/coR3LlOJ6ipobMLsduN5DT/V-fes-App?node-id=1545-1079&t=OrjFR9Jt9qBH9sjR-1"
     />
-  </div>
+  </BentoItem>
 </BentoGrid>

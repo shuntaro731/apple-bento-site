@@ -8,6 +8,7 @@ import YouTuberCard from "../cards/YouTuberCard.astro";
 import TokushimaContent from "./TokushimaContent.astro";
 import PrContent from "./PrContent.astro";
 import BentoGrid from "../BentoGrid.astro";
+import BentoItem from "../BentoItem.astro";
 ---
 
 <div
@@ -15,29 +16,29 @@ import BentoGrid from "../BentoGrid.astro";
   class="mx-auto w-full max-w-md px-6 pt-13 sm:w-fit sm:max-w-full"
 >
   <BentoGrid data-grid-view="profile">
-    <div class="aspect-[465/228] sm:col-span-2 lg:col-start-1 lg:row-start-1 lg:aspect-auto lg:h-full">
+    <BentoItem shape="wide" span={2} col={1} row={1}>
       <AboutCard />
-    </div>
+    </BentoItem>
 
-    <div class="aspect-square lg:col-start-3 lg:row-start-1">
+    <BentoItem col={3} row={1}>
       <SpotifyCard />
-    </div>
+    </BentoItem>
 
-    <div class="aspect-square lg:col-start-4 lg:row-start-1">
+    <BentoItem col={4} row={1}>
       <BrandCard />
-    </div>
+    </BentoItem>
 
-    <div class="aspect-square sm:col-span-2 lg:col-start-1 lg:row-span-2 lg:row-start-2">
+    <BentoItem span={2} col={1} row={2} rows={2}>
       <ImageCard />
-    </div>
+    </BentoItem>
 
-    <div class="aspect-square lg:col-start-3 lg:row-start-3">
+    <BentoItem col={3} row={3}>
       <YouTuberCard />
-    </div>
+    </BentoItem>
 
-    <div class="aspect-[486/187] sm:col-span-2 lg:col-start-3 lg:row-start-2 lg:col-span-2 lg:aspect-auto lg:h-full">
+    <BentoItem shape="banner" span={2} col={3} row={2}>
       <PodcastCard />
-    </div>
+    </BentoItem>
   </BentoGrid>
 
   <div
@@ -55,6 +56,7 @@ import BentoGrid from "../BentoGrid.astro";
   </div>
 </div>
 
+<!-- ハッシュ切り替えのスクリプト -->
 <script>
   import { isSectionId } from "../../constants/sections";
 

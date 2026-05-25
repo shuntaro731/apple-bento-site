@@ -497,8 +497,8 @@
         {
           "type": "frame",
           "id": "cUhDH",
-          "x": 999,
-          "y": 670,
+          "x": 744.4909049409725,
+          "y": 436.4985117936958,
           "name": "Frame 10",
           "clip": true,
           "width": 231,
@@ -799,8 +799,8 @@
         {
           "type": "frame",
           "id": "Cjxo3",
-          "x": 765.4909049409725,
-          "y": 952.4985117936958,
+          "x": 744.4909049409725,
+          "y": 714.4985117936958,
           "name": "Frame 16",
           "context": "ボタンを押すとPodcastのリンクに飛ぶ",
           "clip": true,
@@ -960,7 +960,7 @@
           "y": 952.4985117936958,
           "name": "Frame 19",
           "clip": true,
-          "width": 486,
+          "width": 465,
           "height": 187,
           "fill": "#ffffffff",
           "cornerRadius": 34,
@@ -1056,7 +1056,7 @@
           "name": "Frame 18",
           "clip": true,
           "width": 231,
-          "height": 460,
+          "height": 485,
           "fill": "#d8d8d8ff",
           "cornerRadius": 32,
           "stroke": {
@@ -1076,45 +1076,84 @@
               "fontFamily": "Satoshi",
               "fontSize": 16,
               "fontWeight": "700"
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "TecJt",
-          "x": 749,
-          "y": 436,
-          "name": "Frame 17",
-          "clip": true,
-          "width": 221,
-          "height": 465,
-          "fill": "#d8d8d8ff",
-          "cornerRadius": 32,
-          "stroke": {
-            "align": "inside",
-            "thickness": 1
-          },
-          "layout": "none",
-          "children": [
+            },
             {
-              "type": "text",
-              "id": "z4Fdsv",
-              "x": 84,
-              "y": 233,
-              "name": "My work",
-              "fill": "#000000ff",
-              "content": "My work",
-              "fontFamily": "Satoshi",
-              "fontSize": 16,
-              "fontWeight": "700"
+              "type": "frame",
+              "id": "COkcB",
+              "x": 17.49090494097254,
+              "y": 424.4985117936958,
+              "name": "Frame 22",
+              "width": 43,
+              "height": 43,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "e4uf4",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Ellipse 3",
+                  "sweepAngle": -360.00001001791264,
+                  "fill": "#f7f1f1ff",
+                  "width": 43,
+                  "height": 43,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "VfFdg",
+                  "x": 15,
+                  "y": 15,
+                  "name": "Frame",
+                  "clip": true,
+                  "width": 14,
+                  "height": 14,
+                  "fill": {
+                    "type": "color",
+                    "color": "#ffffffff",
+                    "enabled": false
+                  },
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "VMIUE",
+                      "x": 2.625,
+                      "y": 2.625,
+                      "name": "Vector",
+                      "geometry": "M0 15l15-15-11.25 0m11.25 11.25l0-11.25",
+                      "width": 8.75,
+                      "height": 8.75,
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 1.5,
+                        "join": "round",
+                        "cap": "round",
+                        "fill": "#000000ff"
+                      }
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
         {
           "type": "frame",
           "id": "xCj3N",
-          "x": 233,
-          "y": 1176,
+          "x": 744.4909049409725,
+          "y": 952.4985117936958,
           "name": "Frame 21",
           "clip": true,
           "width": 256,
@@ -1235,6 +1274,1268 @@
           "height": 228
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "Qrmll",
+      "x": -370,
+      "y": -626,
+      "name": "Tokushima",
+      "clip": true,
+      "width": 1440,
+      "height": 1478,
+      "fill": "#f7f1f1ff",
+      "stroke": {
+        "align": "inside",
+        "thickness": 1
+      },
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "fncyH",
+          "x": 64,
+          "y": 65,
+          "name": "Frame 5",
+          "width": 1312,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "gap": 474,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "J0hXj",
+              "name": "shuntaro",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": -450,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#e4678fff",
+                    "position": 0
+                  },
+                  {
+                    "color": "#aa6faeff",
+                    "position": 0.4351612627506256
+                  },
+                  {
+                    "color": "#d8ad66ff",
+                    "position": 0.8907843232154846
+                  }
+                ]
+              },
+              "content": "shuntaro",
+              "fontFamily": "Averia Serif Libre",
+              "fontSize": 28,
+              "fontWeight": "700",
+              "letterSpacing": -1.9600000000000002
+            },
+            {
+              "type": "frame",
+              "id": "nOHyy",
+              "name": "Frame 4",
+              "fill": "#ebe5e5ff",
+              "cornerRadius": 9999,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "gap": 4,
+              "padding": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "L45JT",
+                  "name": "Frame 1",
+                  "fill": {
+                    "type": "color",
+                    "color": "#ffffffff",
+                    "enabled": false
+                  },
+                  "cornerRadius": 9999,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "gap": 10,
+                  "padding": [
+                    6,
+                    14
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZVMAQ",
+                      "name": "Profile",
+                      "fill": "#000000ff",
+                      "content": "Profile",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ahtzu",
+                  "name": "Frame 2",
+                  "fill": "#ffffffff",
+                  "cornerRadius": 9999,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "gap": 10,
+                  "padding": [
+                    6,
+                    14
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RqvAj",
+                      "name": "Tokushima",
+                      "fill": "#000000ff",
+                      "content": "Tokushima",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Svah2",
+                  "name": "Frame 3",
+                  "fill": {
+                    "type": "color",
+                    "color": "#ffffffff",
+                    "enabled": false
+                  },
+                  "cornerRadius": 9999,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "gap": 10,
+                  "padding": [
+                    6,
+                    14
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KNl48",
+                      "name": "PR",
+                      "fill": "#000000ff",
+                      "content": "PR",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "qgZyL",
+              "name": "Contact 👋",
+              "fill": "#000000ff",
+              "content": "Contact 👋",
+              "fontFamily": "Satoshi",
+              "fontSize": 16,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "B5Sdr",
+          "x": 257,
+          "y": 682,
+          "name": "Frame 8",
+          "width": 463,
+          "height": 219,
+          "fill": "#ffffffff",
+          "cornerRadius": 32,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "yQrYL",
+              "name": "Frame 7",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "layout": "vertical",
+              "gap": 20,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "z2vFKq",
+                  "name": "I live in Tokushima.",
+                  "fill": "#000000ff",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "I live in Tokushima.",
+                  "fontFamily": "Satoshi",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ZcnyV",
+                  "name": "正直にいうと徳島は何もないです。でも住みやすい場所ではあると思います。そんな徳島のごくわずかなスポットを集めました。ここに載せていないものだと、お遍路や鳴門の渦潮なんかもありますね。 一度訪れてみてください。",
+                  "fill": "#8c8e8dff",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "正直にいうと徳島は何もないです。でも住みやすい場所ではあると思います。そんな徳島のごくわずかなスポットを集めました。ここに載せていないものだと、お遍路や鳴門の渦潮なんかもありますね。 一度訪れてみてください。",
+                  "fontFamily": "Noto Sans JP",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "iG74T",
+          "x": 255,
+          "y": 182,
+          "name": "Frame 14",
+          "clip": true,
+          "width": 465,
+          "height": 465,
+          "fill": "#d8d8d8ff",
+          "cornerRadius": 32,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "B2vOzD",
+              "x": 28,
+              "y": 393,
+              "name": "Frame 15",
+              "width": "fit_content(120)",
+              "fill": "#ffffffff",
+              "cornerRadius": 8,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": [
+                10,
+                14
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "bD7AL",
+                  "name": "Awaodori 🕺",
+                  "fill": "#000000ff",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Awaodori 🕺",
+                  "fontFamily": "Satoshi",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "IpI35",
+          "x": 255,
+          "y": 182,
+          "name": "Frame 19",
+          "clip": true,
+          "width": 465,
+          "height": 465,
+          "fill": "#d8d8d8ff",
+          "cornerRadius": 32,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "GdFMy",
+              "x": 28,
+              "y": 393,
+              "name": "Frame 15",
+              "width": 132,
+              "fill": "#ffffffff",
+              "cornerRadius": 8,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": [
+                10,
+                14
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "c4RCDT",
+                  "name": "Awaodori 🕺",
+                  "fill": "#000000ff",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Awaodori 🕺",
+                  "fontFamily": "Satoshi",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "xdjNZ",
+          "x": 753,
+          "y": 436,
+          "name": "Frame 20",
+          "clip": true,
+          "width": 465,
+          "height": 465,
+          "fill": "#d8d8d8ff",
+          "cornerRadius": 32,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "bDf3v",
+              "x": 28,
+              "y": 393,
+              "name": "Frame 15",
+              "width": "fit_content(140)",
+              "fill": "#ffffffff",
+              "cornerRadius": 8,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": [
+                10,
+                14
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "q80yLr",
+                  "name": "大塚国際美術館",
+                  "fill": "#000000ff",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "大塚国際美術館",
+                  "fontFamily": "Noto Sans JP",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "b7NXbQ",
+          "x": 744,
+          "y": 182,
+          "name": "Frame 16",
+          "clip": true,
+          "width": 222,
+          "height": 223,
+          "fill": "#ffffffff",
+          "cornerRadius": 32,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "ngqmg",
+              "x": 21,
+              "y": 25,
+              "name": "Ellipse 4",
+              "sweepAngle": -360.00001001791264,
+              "fill": "#d9d9d9ff",
+              "width": 80,
+              "height": 80,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              }
+            },
+            {
+              "type": "text",
+              "id": "RYBr7",
+              "x": 21,
+              "y": 141,
+              "name": "徳島の気温ウィジェット",
+              "fill": "#000000ff",
+              "content": "徳島の気温ウィジェット",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 12,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "A5gZL",
+              "x": 29,
+              "y": 56,
+              "name": "気温アイコン",
+              "fill": "#000000ff",
+              "content": "気温アイコン",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 12,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "eULSX",
+          "x": 986,
+          "y": 184,
+          "name": "Frame 11",
+          "context": "SpotifyのAPIから自分の最近再生した曲をとってくる",
+          "clip": true,
+          "width": 231,
+          "height": 231,
+          "fill": "#ffffffff",
+          "cornerRadius": 32,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "layout": "vertical",
+          "gap": 54,
+          "padding": 32,
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "z29M66",
+              "name": "Frame",
+              "clip": true,
+              "width": 44,
+              "height": 44,
+              "fill": {
+                "type": "color",
+                "color": "#ffffffff",
+                "enabled": false
+              },
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "h3kd9",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Vector",
+                  "geometry": "M12 0c-6.6 0-12 5.4-12 12 0 6.6 5.4 12 12 12 6.6 0 12-5.4 12-12 0-6.6-5.34-12-12-12z m5.521 17.34c-0.24 0.359-0.66 0.48-1.021 0.24-2.82-1.74-6.36-2.101-10.561-1.141-0.418 0.122-0.779-0.179-0.899-0.539-0.12-0.421 0.18-0.78 0.54-0.9 4.56-1.021 8.52-0.6 11.64 1.32 0.42 0.18 0.479 0.659 0.301 1.02z m1.44-3.3c-0.301 0.42-0.841 0.6-1.262 0.3-3.239-1.98-8.159-2.58-11.939-1.38-0.479 0.12-1.02-0.12-1.14-0.6-0.12-0.48 0.12-1.021 0.6-1.141 4.38-1.319 9.78-0.658 13.5 1.621 0.361 0.181 0.54 0.78 0.241 1.2z m0.12-3.36c-3.841-2.28-10.261-2.52-13.921-1.379-0.6 0.179-1.2-0.181-1.38-0.721-0.18-0.601 0.18-1.2 0.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621 0.539 0.3 0.719 1.02 0.419 1.56-0.299 0.421-1.02 0.599-1.559 0.3z",
+                  "fill": "#6ad2b3ff",
+                  "width": 44,
+                  "height": 44,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hiNMW",
+              "name": "Frame 13",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "layout": "vertical",
+              "gap": 2,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "c1GRhv",
+                  "name": "Frame 12",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uzr8f",
+                      "name": "都落ち",
+                      "fill": "#000000ff",
+                      "content": "滝のやきもち",
+                      "fontFamily": "Noto Sans JP",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jSQ9I",
+                      "name": "ヨルシカ",
+                      "fill": "#000000ff",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "美味しい和菓子なので、焼き立てを食べることをおすすめします。",
+                      "fontFamily": "Noto Sans JP",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Z7ROx",
+      "x": -370,
+      "y": 1095,
+      "name": "PR",
+      "clip": true,
+      "width": 1440,
+      "height": 1478,
+      "fill": "#f7f1f1ff",
+      "stroke": {
+        "align": "inside",
+        "thickness": 1
+      },
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "bp8S6",
+          "x": 64,
+          "y": 65,
+          "name": "Frame 5",
+          "width": 1312,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "gap": 474,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "mRMa1",
+              "name": "shuntaro",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": -450,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#e4678fff",
+                    "position": 0
+                  },
+                  {
+                    "color": "#aa6faeff",
+                    "position": 0.4351612627506256
+                  },
+                  {
+                    "color": "#d8ad66ff",
+                    "position": 0.8907843232154846
+                  }
+                ]
+              },
+              "content": "shuntaro",
+              "fontFamily": "Averia Serif Libre",
+              "fontSize": 28,
+              "fontWeight": "700",
+              "letterSpacing": -1.9600000000000002
+            },
+            {
+              "type": "frame",
+              "id": "gFtKO",
+              "name": "Frame 4",
+              "fill": "#ebe5e5ff",
+              "cornerRadius": 9999,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "gap": 4,
+              "padding": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "yMIJh",
+                  "name": "Frame 1",
+                  "fill": {
+                    "type": "color",
+                    "color": "#ffffffff",
+                    "enabled": false
+                  },
+                  "cornerRadius": 9999,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "gap": 10,
+                  "padding": [
+                    6,
+                    14
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "LoLgd",
+                      "name": "Profile",
+                      "fill": "#000000ff",
+                      "content": "Profile",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ewP1z",
+                  "name": "Frame 2",
+                  "fill": {
+                    "type": "color",
+                    "color": "#ffffffff",
+                    "enabled": false
+                  },
+                  "cornerRadius": 9999,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "gap": 10,
+                  "padding": [
+                    6,
+                    14
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Exzhp",
+                      "name": "Tokushima",
+                      "fill": "#000000ff",
+                      "content": "Tokushima",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Q9VbbM",
+                  "name": "Frame 3",
+                  "fill": "#ffffffff",
+                  "cornerRadius": 9999,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "gap": 10,
+                  "padding": [
+                    6,
+                    14
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "x0iIVr",
+                      "name": "PR",
+                      "fill": "#000000ff",
+                      "content": "PR",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "p8uBr",
+              "name": "Contact 👋",
+              "fill": "#000000ff",
+              "content": "Contact 👋",
+              "fontFamily": "Satoshi",
+              "fontSize": 16,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ykO4O",
+          "x": 469,
+          "y": 442,
+          "name": "Frame 16",
+          "clip": true,
+          "width": 222,
+          "height": 223,
+          "fill": "#ffffffff",
+          "cornerRadius": 32,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "KYdTE",
+              "x": 71,
+              "y": 87,
+              "name": "徳島の気温",
+              "fill": "#000000ff",
+              "content": "My skills\n箇条書きで",
+              "fontFamily": "Satoshi",
+              "fontSize": 16,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "u4j0G",
+          "x": 221,
+          "y": 442,
+          "name": "Frame 18",
+          "clip": true,
+          "width": 236,
+          "height": 223,
+          "fill": "#ffffffff",
+          "cornerRadius": 32,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "B44rMG",
+              "x": 23,
+              "y": 22,
+              "name": "Ellipse 2",
+              "sweepAngle": -360.00001001791264,
+              "fill": "#d9d9d9ff",
+              "width": 65,
+              "height": 65,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              }
+            },
+            {
+              "type": "text",
+              "id": "f2WHvO",
+              "x": 23,
+              "y": 130,
+              "name": "滝のやきもち",
+              "fill": "#000000ff",
+              "content": "Golf",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 16,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "D1BrO",
+              "x": 23,
+              "y": 168,
+              "name": "美味しい和菓子なので、徳島に来たら 焼き立てを食べることをおすすめします。",
+              "fill": "#000000ff",
+              "content": "最近ベストスコアを更新して、\nとても嬉しいです。ドライバーが苦手",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 11,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "O2Dvk",
+          "x": 985,
+          "y": 467,
+          "name": "Frame 21",
+          "clip": true,
+          "width": 231,
+          "height": 460,
+          "fill": "#d8d8d8ff",
+          "cornerRadius": 32,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "o5l5K",
+              "x": 84,
+              "y": 219,
+              "name": "My work",
+              "fill": "#000000ff",
+              "content": "My work",
+              "fontFamily": "Satoshi",
+              "fontSize": 16,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "Ii4VM",
+              "x": 19,
+              "y": 397,
+              "name": "Frame 22",
+              "width": 43,
+              "height": 43,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "K1mtr",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Ellipse 3",
+                  "sweepAngle": -360.00001001791264,
+                  "fill": "#f7f1f1ff",
+                  "width": 43,
+                  "height": 43,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "rw032",
+                  "x": 15,
+                  "y": 15,
+                  "name": "Frame",
+                  "clip": true,
+                  "width": 14,
+                  "height": 14,
+                  "fill": {
+                    "type": "color",
+                    "color": "#ffffffff",
+                    "enabled": false
+                  },
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "zTUGP",
+                      "x": 2.625,
+                      "y": 2.625,
+                      "name": "Vector",
+                      "geometry": "M0 15l15-15-11.25 0m11.25 11.25l0-11.25",
+                      "width": 8.75,
+                      "height": 8.75,
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 1.5,
+                        "join": "round",
+                        "cap": "round",
+                        "fill": "#000000ff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "EJtCr",
+          "x": 728,
+          "y": 205,
+          "name": "Frame 17",
+          "clip": true,
+          "width": 221,
+          "height": 465,
+          "fill": "#d8d8d8ff",
+          "cornerRadius": 32,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "EmlNs",
+              "x": 84,
+              "y": 233,
+              "name": "My work",
+              "fill": "#000000ff",
+              "content": "My work",
+              "fontFamily": "Satoshi",
+              "fontSize": 16,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "ztog8",
+              "x": 17,
+              "y": 404,
+              "name": "Frame 22",
+              "width": 43,
+              "height": 43,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "Jpp62",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Ellipse 3",
+                  "sweepAngle": -360.00001001791264,
+                  "fill": "#f7f1f1ff",
+                  "width": 43,
+                  "height": 43,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "DPMf7",
+                  "x": 15,
+                  "y": 15,
+                  "name": "Frame",
+                  "clip": true,
+                  "width": 14,
+                  "height": 14,
+                  "fill": {
+                    "type": "color",
+                    "color": "#ffffffff",
+                    "enabled": false
+                  },
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "XE392",
+                      "x": 2.625,
+                      "y": 2.625,
+                      "name": "Vector",
+                      "geometry": "M0 15l15-15-11.25 0m11.25 11.25l0-11.25",
+                      "width": 8.75,
+                      "height": 8.75,
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 1.5,
+                        "join": "round",
+                        "cap": "round",
+                        "fill": "#000000ff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zFUc8",
+          "x": 224,
+          "y": 199,
+          "name": "Frame 8",
+          "width": 463,
+          "height": 219,
+          "fill": "#ffffffff",
+          "cornerRadius": 32,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "mPMLS",
+              "name": "Frame 7",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "layout": "vertical",
+              "gap": 20,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "B3TLac",
+                  "name": "I live in Tokushima.",
+                  "fill": "#000000ff",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "What I’m Passionate About",
+                  "fontFamily": "Satoshi",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "gqcBG",
+                  "name": "正直にいうと徳島は何もないです。でも住みやすい場所ではあると思います。そんな徳島のごくわずかなスポットを集めました。ここに載せていないものだと、お遍路や鳴門の渦潮なんかもありますね。 一度訪れてみてください。",
+                  "fill": "#8c8e8dff",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "私は、デザイン・フロントエンド開発が得意です。\nユーザー体験が素晴らしいコンテンツだったり、いろんな業界のデザイナーの作品を見て日々感動しています。\nこのページでは自分が過去に作った作品を載せました。趣味で言うと1年前からゴルフにハマっています",
+                  "fontFamily": "Noto Sans JP",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "pIn8U",
+          "x": 985,
+          "y": 199,
+          "name": "Frame 10",
+          "context": "https://www.figma.com/@shuntaro1 このリンクに飛ぶように\nfigmaのアイコンやスタイルに切り替え\n",
+          "clip": true,
+          "width": 231,
+          "height": 231,
+          "fill": "#242424ff",
+          "cornerRadius": 32,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "layout": "vertical",
+          "gap": 54,
+          "padding": 32,
+          "justifyContent": "space_around",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "i02wb",
+              "layoutPosition": "absolute",
+              "x": 16,
+              "y": 171,
+              "name": "Frame 22",
+              "width": 43,
+              "height": 43,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "Q8huN",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Ellipse 3",
+                  "sweepAngle": -360.00001001791264,
+                  "fill": "#f7f1f1ff",
+                  "width": 43,
+                  "height": 43,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "HfbXE",
+                  "x": 15,
+                  "y": 15,
+                  "name": "Frame",
+                  "clip": true,
+                  "width": 14,
+                  "height": 14,
+                  "fill": {
+                    "type": "color",
+                    "color": "#ffffffff",
+                    "enabled": false
+                  },
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "KI2Pd",
+                      "x": 2.625,
+                      "y": 2.625,
+                      "name": "Vector",
+                      "geometry": "M0 15l15-15-11.25 0m11.25 11.25l0-11.25",
+                      "width": 8.75,
+                      "height": 8.75,
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 1.5,
+                        "join": "round",
+                        "cap": "round",
+                        "fill": "#000000ff"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hTRuM",
+              "name": "Frame",
+              "clip": true,
+              "width": 58,
+              "height": 58,
+              "fill": {
+                "type": "color",
+                "color": "#ffffffff",
+                "enabled": false
+              },
+              "stroke": {
+                "align": "inside",
+                "thickness": 1
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "W4IJIj",
+                  "x": 0,
+                  "y": 0.7177499532699585,
+                  "name": "Vector",
+                  "geometry": "M12 0c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385 0.6 0.113 0.82-0.258 0.82-0.577 0-0.285-0.01-1.04-0.015-2.04-3.338 0.724-4.042-1.61-4.042-1.61-0.546-1.385-1.335-1.755-1.335-1.755-1.087-0.744 0.084-0.729 0.084-0.729 1.205 0.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495 0.998 0.108-0.776 0.417-1.305 0.76-1.605-2.665-0.3-5.466-1.332-5.466-5.93 0-1.31 0.465-2.38 1.235-3.22-0.135-0.303-0.54-1.523 0.105-3.176 0 0 1.005-0.322 3.3 1.23 0.96-0.267 1.98-0.399 3-0.405 1.02 0.006 2.04 0.138 3 0.405 2.28-1.552 3.285-1.23 3.285-1.23 0.645 1.653 0.24 2.873 0.12 3.176 0.765 0.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92 0.42 0.36 0.81 1.096 0.81 2.22 0 1.606-0.015 2.896-0.015 3.286 0 0.315 0.21 0.69 0.825 0.57 4.801-1.574 8.236-6.074 8.236-11.369 0-6.627-5.373-12-12-12z",
+                  "fill": "#f7f1f1ff",
+                  "width": 58,
+                  "height": 56.5638542175293,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rectangle",
+      "id": "WXuAq",
+      "x": 1371,
+      "y": 1396,
+      "fill": "#f7f7f7ff",
+      "width": 466,
+      "height": 416
     }
   ]
 }

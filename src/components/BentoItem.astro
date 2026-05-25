@@ -1,0 +1,82 @@
+---
+type GridNumber = 1 | 2 | 3 | 4;
+type Shape = "square" | "wide" | "banner" | "tall" | "fill";
+
+interface Props {
+  shape?: Shape;
+  col?: GridNumber;
+  row?: GridNumber;
+  span?: GridNumber;
+  rows?: GridNumber;
+  smCol?: 1 | 2;
+  class?: string;
+}
+
+const {
+  shape = "square",
+  col,
+  row,
+  span,
+  rows,
+  smCol,
+  class: className = "",
+  ...attrs
+} = Astro.props;
+
+const shapeClasses: Record<Shape, string> = {
+  square: "aspect-square",
+  wide: "aspect-[465/228] lg:aspect-auto lg:h-full",
+  banner: "aspect-[486/187] lg:aspect-auto lg:h-full",
+  tall: "aspect-[231/465] lg:aspect-auto lg:h-full",
+  fill: "lg:h-full",
+};
+
+const colStartClasses: Record<GridNumber, string> = {
+  1: "lg:col-start-1",
+  2: "lg:col-start-2",
+  3: "lg:col-start-3",
+  4: "lg:col-start-4",
+};
+
+const rowStartClasses: Record<GridNumber, string> = {
+  1: "lg:row-start-1",
+  2: "lg:row-start-2",
+  3: "lg:row-start-3",
+  4: "lg:row-start-4",
+};
+
+const colSpanClasses: Record<GridNumber, string> = {
+  1: "sm:col-span-1",
+  2: "sm:col-span-2",
+  3: "sm:col-span-3",
+  4: "sm:col-span-4",
+};
+
+const rowSpanClasses: Record<GridNumber, string> = {
+  1: "lg:row-span-1",
+  2: "lg:row-span-2",
+  3: "lg:row-span-3",
+  4: "lg:row-span-4",
+};
+
+const smColStartClasses: Record<1 | 2, string> = {
+  1: "sm:col-start-1",
+  2: "sm:col-start-2",
+};
+---
+
+<div
+  {...attrs}
+  class:list={[
+    "min-w-0",
+    shapeClasses[shape],
+    col && colStartClasses[col],
+    row && rowStartClasses[row],
+    span && colSpanClasses[span],
+    rows && rowSpanClasses[rows],
+    smCol && smColStartClasses[smCol],
+    className,
+  ]}
+>
+  <slot />
+</div>
